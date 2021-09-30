@@ -1,4 +1,4 @@
-# UNICAMP/UFABC submission to the HDC2021 
+# UNICAMP/UFABC - São Paulo/Brazil submission to the HDC2021 
 ## Team members
 - João Rabello Alvim, BSc - UNICAMP j.rabello.alvim@outlook.com
 - Kenji Nose Filho, PhD - UFABC kenji.nose@ufabc.edu.br
