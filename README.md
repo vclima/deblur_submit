@@ -30,9 +30,11 @@ Python libraries required:
 
 ## Examples
 ![image info](./examples/7.png)
+
 Step 7 deblurring
 
 ![image info](./examples/9.png)
+
 Step 9 deblurring
 
 ## References
