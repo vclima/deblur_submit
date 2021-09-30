@@ -10,7 +10,8 @@
 
 ## Algorithm description
 
-In order to compete on the Helsinki Deblur Challenge 2021 we propose a Regularization by Denoising [1] method. First we estimate the PSF with the given dot images at each step and then perform deconvolution using an inverse-problem frameworg with the RED (Regularization by Denoising) fixed point algorithm. The denoiser employed in this algorithm is a Wavelet denoiser (from Scipy) followed by a Soft Threshold, which is equivalent to performing a L1 norm regularization. In order to provide a better output for the OCR, we perform a contrast stretching followed by a simple threshold binarization.
+
+In order to compete on the Helsinki Deblur Challenge 2021 we propose a Regularization by Denoising [1] method. First, we estimate the PSF with the given dot images at each step and then perform deconvolution with the RED (Regularization by Denoise) fixed point algorithm. We combine the output of two estimates. The estimate of the first algorithm and the output of the RED algorithm, with Wavelet denoiser (from Scipy) followed by a Soft Threshold, projected onto the L1 ball (proximal function of the Linf norm), which is equivalent to performing a Linf regularization. In order to provide a better output for the OCR, we perform a contrast stretching followed by a simple limiar binarization.
 
 ## Instalation & execution instructions
 1) Clone this project into your computer
